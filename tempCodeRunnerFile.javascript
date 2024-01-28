@@ -1,6 +1,8 @@
-let name = "Ronit\'";
-console.log(name.length);
-name.toUpperCase();
-console.log(name);
-console.log(name.toLowerCase());
+let num = [1,2,3,4,5,6,7,8,9,10];
+let numMore = [11,12,13,14,15,16,17,18,19];
+console.log(num);
+delete num[0];
+console.log(num, num.length);
 
+let newArray = num.concat(numMore);
+console.log(newArray);

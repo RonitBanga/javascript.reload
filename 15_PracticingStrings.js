@@ -8,7 +8,7 @@ console.log(`The word "${word}" ${sentence.includes(word) ? "is" : "is not"} in 
 let text = "Hello world, welcome to the universe.";
 let result = text.startsWith("Hello");
 console.log(result);
-result = text.startsWith("Universe.");
+result = text.endsWith("Universe.");
 console.log(result);
 
 console.log(text.toLowerCase());
