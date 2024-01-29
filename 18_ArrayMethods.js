@@ -25,3 +25,16 @@ console.log(num); // sort on the basis of alphabtical order
 
 num.sort(compare);
 console.log(num);
+
+num.reverse();
+console.log(num);
+
+// Splice and Slice
+
+let deletedValues = num.splice(2,1,1022,1033,1044);
+console.log(deletedValues);
+console.log(typeof deletedValues);
+console.log(num);
+
+console.log(num.slice(1,3));
+console.log(num.slice(1));

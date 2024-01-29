@@ -1,4 +1,4 @@
-let arr = [22,33,44,55,null,false,"not given"];
+let arr = ['22',33,44,55,null,false,"not given",NaN];
 console.log(arr);
 
 console.log(arr[2]);
